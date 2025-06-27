@@ -1,0 +1,59 @@
+/* basketball/basketball.css */
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #d84315;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #4e342e;
+    font-size: 28px;
+    margin-top: 30px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+ul li p {
+    margin: 5px 0 15px 0;
+    font-weight: normal;
+    color: #333;
+}
+
+strong {
+    color: #1565c0;
+}
