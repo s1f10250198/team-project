@@ -7,18 +7,19 @@ body {
     padding: 20px;
     color: #333;
     line-height: 1.6;
+    font-size: 18px;
 }
 
 h1 {
     color: #d84315;
-    font-size: 36px;
+    font-size: 42px;
     text-align: center;
     margin-bottom: 10px;
 }
 
 h2 {
     color: #4e342e;
-    font-size: 28px;
+    font-size: 32px;
     margin-top: 30px;
     border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
@@ -27,7 +28,7 @@ h2 {
 img {
     display: block;
     margin: 20px auto;
-    max-width: 90%;
+    max-width: 40%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -43,6 +44,7 @@ ul {
 }
 
 ul li {
+    font-size: 18px;
     margin-bottom: 10px;
     font-weight: bold;
     color: #2e7d32;
@@ -52,6 +54,7 @@ ul li p {
     margin: 5px 0 15px 0;
     font-weight: normal;
     color: #333;
+    font-size: 17px;
 }
 
 strong {
