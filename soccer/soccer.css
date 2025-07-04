@@ -14,7 +14,7 @@ body {
   line-height: 1.75;
   color: #333;
   background: #f9f9f9;
-  max-width: 800px;
+  max-width: 3000px;
   margin: 0 auto;
   padding: 40px 16px;
 }
@@ -90,4 +90,47 @@ img {
   height: auto;
   display: block;
   margin: 1em 0;
+}
+
+/*―― 6．レイアウト ――*/
+.wrapper {
+  display: flex;
+  max-width: 2000px; /* 必要に応じて調整 */
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* サイドバー */
+.sidebar {
+  flex-shrink: 0;      /* 横幅は決め打ち */
+  width: 200px;        /* お好みで幅を調整 */
+  padding: 16px;
+  background: #EFEFEF;
+  border-right: 1px solid #DDD;
+}
+
+/* サイドバー内のリスト */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.8em;
+}
+
+.sidebar a {
+  color: #1F618D;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* メインコンテンツ */
+.main-content {
+  flex: 1;
+  padding: 40px 24px; /* body のパディングと調整 */
 }
