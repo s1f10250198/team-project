@@ -1,0 +1,93 @@
+/*--------------------------------------
+  1．リセット＆ベース設定
+---------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100%; /* 16px 相当 */
+}
+body {
+  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN", Meiryo, sans-serif;
+  line-height: 1.75;
+  color: #333;
+  background: #f9f9f9;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 16px;
+}
+
+/*--------------------------------------
+  2．見出しスタイル
+---------------------------------------*/
+h1 {
+  font-size: 2.4rem;        /* 約38px */
+  color: #1f618d;
+  margin-bottom: 0.5em;
+  border-bottom: 4px solid #1f618d;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.8rem;        /* 約29px */
+  color: #2e86c1;
+  margin: 1.5em 0 0.6em;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.2em;
+}
+
+/*--------------------------------------
+  3．本文・段落
+---------------------------------------*/
+p {
+  margin: 0.8em 0;
+  text-align: justify;               /* 日本語の禁則処理 */
+  text-justify: inter-ideograph;
+}
+
+/* ul/li 内の p はインデントをキープ */
+ul li p {
+  margin: 0.6em 0;
+}
+
+/*--------------------------------------
+  4．リスト（ul）
+---------------------------------------*/
+ul {
+  margin: 1em 0 1em 1.5em;
+  list-style-type: disc;
+}
+ul li {
+  margin: 0.8em 0;
+  position: relative;
+  padding-left: 0.5em;
+}
+
+/* リスト項目が複数段のときの調整 */
+ul li p:first-of-type {
+  /* 見出し的な段落がある場合はちょっと強調 */
+}
+
+/* 強調テキスト */
+strong {
+  color: #c0392b;
+}
+
+/*--------------------------------------
+  5．リンク・画像（必要に応じて）
+---------------------------------------*/
+a {
+  color: #1f618d;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em 0;
+}
